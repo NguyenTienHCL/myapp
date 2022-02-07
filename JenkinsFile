@@ -2,8 +2,7 @@ node {
   stage("Git check out") {
     git 'https://github.com/SaiKrishna2681/myapp.git'
   }
-  stage("compile") {
-    def mvnhome = tool name: 'maven', type: 'maven'
-    sh "${mvnhome}/bin/mvn package" 
+  stage("build") {
+    sh './build-tools-images.sh'
   }
 }
