@@ -1,5 +1,5 @@
 
-ARG JAVA_VERSION
-ARG MAVEN_VERSION
+ARG java_version
+ARG maven_version
 
-FROM maven:${MAVEN_VERSION}-openjdk-${JAVA_VERSION}-slim
+FROM maven:${maven_version}-openjdk-${java_version}-slim
