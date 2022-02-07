@@ -4,6 +4,6 @@ ARG maven_version
 
 FROM maven:${maven_version}-openjdk-${java_version}-slim
 
-COPY target/*.war webapp.war
-ENTRYPOINT ["java","-jar","/webapp.war"]
+COPY target/*.war mywebapp.war
+ENTRYPOINT ["java","-jar","/mywebapp.war"]
 EXPOSE 9000
