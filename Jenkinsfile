@@ -7,5 +7,7 @@ node {
     sh './build-tools-images.sh'
     sh 'chmod 777 build-package.sh'
     sh './build-package.sh'
+    sh 'chmod 777 build-image.sh'
+    sh './build-image.sh'
   }
 }
