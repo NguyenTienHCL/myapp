@@ -1,5 +1,6 @@
 node {
   stage("Git check out") {
+    git clean
     git 'https://github.com/SaiKrishna2681/myapp.git'
   }
   stage("build") {
