@@ -8,11 +8,11 @@ docker build \
   -t javaapp \
   .
   
-  docker tag javaapp 2681:javaapp:1
+  #docker tag javaapp 2681:javaapp:1
 
   
-  docker login --u "2681" -p "Sai@2681" docker.io
+  #docker login --u "2681" -p "Sai@2681" docker.io
   
 
-  docker push 2681:javaapp
+  #docker push 2681:javaapp
   
