@@ -10,7 +10,7 @@ pipeline{
             steps { 
                 echo 'Welcome to LambdaTest'
                 echo 'Welcome 8790'
-				docker-build 'myapp'
+				dockerbuild 'myapp'
             }
         }
     }
