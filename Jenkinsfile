@@ -1,3 +1,5 @@
+@Library('docker-demo')_
+
 pipeline{
    agent any     
      triggers {
