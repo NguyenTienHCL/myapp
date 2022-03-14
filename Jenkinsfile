@@ -7,6 +7,7 @@ pipeline{
         stage('Welcome Step') {
             steps { 
                 echo 'Welcome to LambdaTest'
+                echo 'Welcome'
             }
         }
     }
