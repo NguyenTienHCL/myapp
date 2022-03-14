@@ -1,4 +1,4 @@
-@Library('docker-demo')_
+@Library('docker-build')_
 
 pipeline{
    agent any     
