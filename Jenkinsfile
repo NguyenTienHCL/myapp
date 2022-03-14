@@ -1,4 +1,4 @@
-@Library('docker-build')_
+@Library('pipeline-library-demo')_
 
 pipeline{
    agent any     
@@ -10,6 +10,7 @@ pipeline{
             steps { 
                 echo 'Welcome to LambdaTest'
                 echo 'Welcome 8790'
+				docker-build 'myapp'
             }
         }
     }
