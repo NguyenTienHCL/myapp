@@ -1,3 +1,4 @@
+
 ARG java_version
 ARG maven_version
 
@@ -9,3 +10,4 @@ RUN mkdir /app
 COPY target/*.jar /app
 
 ENTRYPOINT ["/bin/bash", "-c", "java -jar /app/*.jar"]
+
